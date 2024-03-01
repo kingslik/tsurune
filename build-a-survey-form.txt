@@ -1,0 +1,319 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+     <div class="container">
+       <header class="header">
+  <h1 id="title" class="textcenter">Issues With Modern Games Survey</h1>
+  <p id="description" class="description textcenter">
+    Thank you for taking your time to share your thoughts!
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="formgroup">
+      <label id="name-label" for="name">Name</label>
+      <input
+      type="text"
+      name="name"
+      id="name"
+      class="formControl"
+      placeholder="Enter your name"
+      required
+      />
+      </div>
+      <div class="formgroup">
+      <label id="email-label" for="email">Email</label>
+      <input
+      type="email"
+      name="email"
+      id="email"
+      class="formControl"
+      placeholder="Enter your Email"
+      required
+      />
+      </div>
+        <div class="formgroup">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="13"
+            max="120"
+            class="formControl"
+            placeholder="Age"
+          />
+          </div>
+      <div class="formgroup">
+        <p id="plabel">What of these options are the most prevalent and harmful issues in games now?</p>
+          <select id="dropdown" name="option" class="formControl" required>
+            <option disabled selected value>Select an option</option>
+            <option value="Pay-To-Win">Pay-To-Win</option>
+            <option value="Transactions">General in game real money transactions</option>
+            <option value="Esports">Influence of Esports</option>
+          </select>
+        </div>
+        <div class="formgroup">
+          <p id="plabel">How would you describe your gaming habits?</p>
+          <label>
+            <input
+              name="habit"
+              value="Sparse"
+              type="radio"
+              class="input-radio"
+              checked
+            />Sparse</label
+          >
+          <label>
+            <input
+              name="habit"
+              value="Casual"
+              type="radio"
+              class="input-radio"
+            />Casual</label
+          >
+
+          <label
+            ><input
+              name="habit"
+              value="Regular"
+              type="radio"
+              class="input-radio"
+            />Regular</label
+          >
+                    <label
+            ><input
+              name="habit"
+              value="Heavy"
+              type="radio"
+              class="input-radio"
+            />Heavy</label
+          >
+        </div>
+<div class="formgroup">
+          <p id="plabel">Which genre do you play most?</p>
+          <label>
+            <input
+              name="genre"
+              value="RPG"
+              type="radio"
+              class="input-radio"
+              checked
+            />RPG</label
+          >
+          <label>
+            <input
+              name="genre"
+              value="Action/Shooter"
+              type="radio"
+              class="input-radio"
+            />Action/Shooter</label
+          >
+
+          <label
+            ><input
+              name="genre"
+              value="Puzzle/Adventure"
+              type="radio"
+              class="input-radio"
+            />Puzzle/Adventure</label
+          >
+                    <label
+            ><input
+              name="habit"
+              value="Multiplayer"
+              type="radio"
+              class="input-radio"
+            />Multiplayer</label
+          >
+                              <label
+            ><input
+              name="habit"
+              value="Other"
+              type="radio"
+              class="input-radio"
+            />Other</label
+          >
+        </div>
+<div class="form-group">
+          <p id="plabel">
+            Which gaming systems do you game on?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="console"
+              value="PS5"
+              type="checkbox"
+              class="input-checkbox"
+            />PS5</label
+          >
+          <label>
+            <input
+              name="console"
+              value="PS4"
+              type="checkbox"
+              class="input-checkbox"
+            />PS4</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Xbox Series"
+              type="checkbox"
+              class="input-checkbox"
+            />Xbox Series</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Xbox One"
+              type="checkbox"
+              class="input-checkbox"
+            />Xbox One</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Nintendo Switch"
+              type="checkbox"
+              class="input-checkbox"
+            />Nintendo Switch</label
+          >
+          <label
+            ><input
+              name="console"
+              value="PC"
+              type="checkbox"
+              class="input-checkbox"
+            />PC</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Smartphone"
+              type="checkbox"
+              class="input-checkbox"
+            />Smartphone</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p id="plabel">Any extra information or comments?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+         </form>
+    </div>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@font-face {
+  font-display: swap;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://blz-contentstack-images.akamaized.net/v3/assets/blt3452e3b114fab0cd/bltf06edb2f6b6c62bb/652d988302f5a2b5b644f115/oxygen-v15-latin-regular.woff2?format=webply&quality=70) format("woff2"), url(https://blz-contentstack-images.akamaized.net/v3/assets/blt3452e3b114fab0cd/blt4772a53ee6b0cf11/652d9883c9cf4e849b162f59/oxygen-v15-latin-regular.ttf?format=webply&quality=70) format("truetype");
+}
+@font-face {
+  font-family: Nanum Gothic;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Nanum Gothic"), local("NanumGothic"), asset-url("blt9c12f249ac15c7ec/blt7fb061e48a78eeb4/6257ac5209a9dc231734250f/nanumgothic.1d98d61bb3f3c62920b0edcdbade3070.woff2", false) format("woff2"), asset-url("blt9c12f249ac15c7ec/blt8f7651af0a11d1e2/6257ac52b2a3cb22f4150c8c/nanumgothic.5bb7da03f992f9107c674046378259d6.woff", false) format("woff");
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt7d2ad8c6022f7c0f/6527baa4562cbc3925007ffd/Overview_Desktop.jpg)
+}
+#title, #description {
+  background: linear-gradient(0deg, rgba(255, 199, 133, 0.9) 19.57%, rgba(250, 199, 47, 0.9) 44.19%, rgba(255, 199, 133, 0.9) 73.91%), #FFFFFF;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  padding-top: 2px;
+  text-align: center;
+}
+h1 {
+  font-family: 'Oxygen', Serif;
+}
+#description {
+  letter-spacing: 4px;
+}
+input::placeholder, textarea::placeholder, #dropdown {
+  color: #D0A87B;
+  font-family: 'Poppins', sans-serif;
+}
+label, input, option, #plabel {
+  color: #FFF2CB;
+}
+ form {
+    padding: 2.5rem;
+  }
+.formgroup {
+   margin: 0 auto 1.25rem auto;
+  padding: 0.25rem; 
+  }
+.formControl {
+  position: relative;
+}
+label {
+  display: block;
+}
+textarea, select, #email, #name, #number {
+  margin: auto;
+  width: 100%;
+  background-color: 202738;
+  border: 1px;
+  border-radius: 0.25rem;
+  height: 2rem;
+  font-size: inherit;
+  text-align: center;
+}
+textarea {
+  height: 5rem;
+}
+button {
+  margin-top: 1rem;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  border: 2px;
+  border-radius: 0.25rem;
+  height: 2rem;
+  background-color: #EF972F;
+  color: #3A271D;
+  font-family: 'Poppins';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+** end of undefined **
+
