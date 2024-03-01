@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+     <div class="container">
+       <header class="header">
+  <h1 id="title" class="textcenter">Issues With Modern Games Survey</h1>
+  <p id="description" class="description textcenter">
+    Thank you for taking your time to share your thoughts!
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="formgroup">
+      <label id="name-label" for="name">Name</label>
+      <input
+      type="text"
+      name="name"
+      id="name"
+      class="formControl"
+      placeholder="Enter your name"
+      required
+      />
+      </div>
+      <div class="formgroup">
+      <label id="email-label" for="email">Email</label>
+      <input
+      type="email"
+      name="email"
+      id="email"
+      class="formControl"
+      placeholder="Enter your Email"
+      required
+      />
+      </div>
+        <div class="formgroup">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="13"
+            max="120"
+            class="formControl"
+            placeholder="Age"
+          />
+          </div>
+      <div class="formgroup">
+        <p id="plabel">What of these options are the most prevalent and harmful issues in games now?</p>
+          <select id="dropdown" name="option" class="formControl" required>
+            <option disabled selected value>Select an option</option>
+            <option value="Pay-To-Win">Pay-To-Win</option>
+            <option value="Transactions">General in game real money transactions</option>
+            <option value="Esports">Influence of Esports</option>
+          </select>
+        </div>
+        <div class="formgroup">
+          <p id="plabel">How would you describe your gaming habits?</p>
+          <label>
+            <input
+              name="habit"
+              value="Sparse"
+              type="radio"
+              class="input-radio"
+              checked
+            />Sparse</label
+          >
+          <label>
+            <input
+              name="habit"
+              value="Casual"
+              type="radio"
+              class="input-radio"
+            />Casual</label
+          >
+
+          <label
+            ><input
+              name="habit"
+              value="Regular"
+              type="radio"
+              class="input-radio"
+            />Regular</label
+          >
+                    <label
+            ><input
+              name="habit"
+              value="Heavy"
+              type="radio"
+              class="input-radio"
+            />Heavy</label
+          >
+        </div>
+<div class="formgroup">
+          <p id="plabel">Which genre do you play most?</p>
+          <label>
+            <input
+              name="genre"
+              value="RPG"
+              type="radio"
+              class="input-radio"
+              checked
+            />RPG</label
+          >
+          <label>
+            <input
+              name="genre"
+              value="Action/Shooter"
+              type="radio"
+              class="input-radio"
+            />Action/Shooter</label
+          >
+
+          <label
+            ><input
+              name="genre"
+              value="Puzzle/Adventure"
+              type="radio"
+              class="input-radio"
+            />Puzzle/Adventure</label
+          >
+                    <label
+            ><input
+              name="habit"
+              value="Multiplayer"
+              type="radio"
+              class="input-radio"
+            />Multiplayer</label
+          >
+                              <label
+            ><input
+              name="habit"
+              value="Other"
+              type="radio"
+              class="input-radio"
+            />Other</label
+          >
+        </div>
+<div class="form-group">
+          <p id="plabel">
+            Which gaming systems do you game on?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="console"
+              value="PS5"
+              type="checkbox"
+              class="input-checkbox"
+            />PS5</label
+          >
+          <label>
+            <input
+              name="console"
+              value="PS4"
+              type="checkbox"
+              class="input-checkbox"
+            />PS4</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Xbox Series"
+              type="checkbox"
+              class="input-checkbox"
+            />Xbox Series</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Xbox One"
+              type="checkbox"
+              class="input-checkbox"
+            />Xbox One</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Nintendo Switch"
+              type="checkbox"
+              class="input-checkbox"
+            />Nintendo Switch</label
+          >
+          <label
+            ><input
+              name="console"
+              value="PC"
+              type="checkbox"
+              class="input-checkbox"
+            />PC</label
+          >
+          <label
+            ><input
+              name="console"
+              value="Smartphone"
+              type="checkbox"
+              class="input-checkbox"
+            />Smartphone</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p id="plabel">Any extra information or comments?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+         </form>
+    </div>
+  </body>
+</html
